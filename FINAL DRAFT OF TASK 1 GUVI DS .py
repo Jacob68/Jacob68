@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 user_input = input("Enter (Register)/(Login): ")
 def getdetails():
     import re
@@ -82,16 +76,3 @@ if user_input == "Login":
     except FileNotFoundError:
         print("Invalid ,Please Try Again")
         checkdetails()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
